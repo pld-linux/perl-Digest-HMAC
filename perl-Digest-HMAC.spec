@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Digest
 %define	pnam	HMAC
-%include 	/usr/lib/rpm/macros.perl
 Summary:	Perl Digest-HMAC module
 Summary(pl):	Modu³ Perla Digest-HMAC
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	4
-
+Release:	5
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -30,7 +29,7 @@ algorytmem skrótu, zazwyczaj MD5 lub SHA-1. Mechanizm HMAC jest
 opisany w RFC 2104.
 
 %prep
-%setup -q -n Digest-HMAC-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
