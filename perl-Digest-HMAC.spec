@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Digest::HMAC
 Summary(zh_CN):	Digest::HMAC Perl дё©И
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	8
+Release:	9
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
