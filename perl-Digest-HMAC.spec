@@ -4,7 +4,7 @@ Summary(pl):	Modu³ Perla Digest-HMAC
 Name:		perl-Digest-HMAC
 Version:	1.01
 Release:	1
-License:	Distributable
+License:	distributable
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
