@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Digest
 %define	pnam	HMAC
-Summary:	Perl Digest-HMAC module
-Summary(pl):	Modu³ Perla Digest-HMAC
+Summary:	Perl Digest::HMAC module
+Summary(pl):	Modu³ Perla Digest::HMAC
 Name:		perl-Digest-HMAC
 Version:	1.01
 Release:	5
