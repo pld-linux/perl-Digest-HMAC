@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Digest
-%define		pnam	HMAC
+%define	pdir	Digest
+%define	pnam	HMAC
 Summary:	Digest::HMAC - keyed-hashing for message authentication
 Summary(pl):	Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatów
 Name:		perl-Digest-HMAC
