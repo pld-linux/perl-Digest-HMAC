@@ -40,8 +40,7 @@ opisany w RFC 2104.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make} \
-	OPTIMIZE="%{rpmcflags}"
+%{__make}
 
 %{?with_tests:%{__make} test}
 
