@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Digest
-%define	pnam	HMAC
-Summary:	Perl Digest::HMAC module
+%define		pdir	Digest
+%define		pnam	HMAC
+Summary:	Digest::HMAC Perl module
+Summary(cs):	Modul Digest::HMAC pro Perl
+Summary(da):	Perlmodul Digest::HMAC
+Summary(de):	Digest::HMAC Perl Modul
+Summary(es):	Módulo de Perl Digest::HMAC
+Summary(fr):	Module Perl Digest::HMAC
+Summary(it):	Modulo di Perl Digest::HMAC
+Summary(ja):	Digest::HMAC Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Digest::HMAC ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Digest::HMAC
 Summary(pl):	Modu³ Perla Digest::HMAC
+Summary(pt):	Módulo de Perl Digest::HMAC
+Summary(pt_BR):	Módulo Perl Digest::HMAC
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Digest::HMAC
+Summary(sv):	Digest::HMAC Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Digest::HMAC
+Summary(zh_CN):	Digest::HMAC Perl Ä£¿é
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	5
+Release:	6
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -40,12 +55,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT 
 
-gzip -9nf README Changes rfc*
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
-%{perl_sitelib}/Digest/*.pm
+%doc README Changes
+%{perl_sitelib}/Digest
+%{_mandir}/man3/*
