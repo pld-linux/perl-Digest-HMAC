@@ -1,27 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	HMAC
-Summary:	Digest::HMAC Perl module
-Summary(cs):	Modul Digest::HMAC pro Perl
-Summary(da):	Perlmodul Digest::HMAC
-Summary(de):	Digest::HMAC Perl Modul
-Summary(es):	Módulo de Perl Digest::HMAC
-Summary(fr):	Module Perl Digest::HMAC
-Summary(it):	Modulo di Perl Digest::HMAC
-Summary(ja):	Digest::HMAC Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Digest::HMAC ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Digest::HMAC
-Summary(pl):	Modu³ Perla Digest::HMAC
-Summary(pt):	Módulo de Perl Digest::HMAC
-Summary(pt_BR):	Módulo Perl Digest::HMAC
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Digest::HMAC
-Summary(sv):	Digest::HMAC Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Digest::HMAC
-Summary(zh_CN):	Digest::HMAC Perl Ä£¿é
+Summary:	Digest::HMAC - keyed-hashing for message authentication
+Summary(pl):	Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatów
 Name:		perl-Digest-HMAC
 Version:	1.01
 Release:	10
-License:	distributable
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	32dc54c765100c638b5d7f7ff4c5c626
