@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Digest::HMAC
 Summary(zh_CN):	Digest::HMAC Perl дё©И
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	7
+Release:	8
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -61,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Changes
-%{perl_sitelib}/Digest
+%{perl_sitelib}/Digest/*.pm
 %{_mandir}/man3/*
