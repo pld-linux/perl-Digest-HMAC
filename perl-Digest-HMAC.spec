@@ -3,7 +3,7 @@ Summary:	Perl Digest-HMAC module
 Summary(pl):	Modu³ Perla Digest-HMAC
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	2
+Release:	3
 License:	distributable
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -19,8 +19,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 HMAC is used for message integrity checks between two parties that
 share a secret key, and works in combination with some other Digest
-algorithm, usually MD5 or SHA-1.  The HMAC mechanism is described in
+algorithm, usually MD5 or SHA-1. The HMAC mechanism is described in
 RFC 2104.
+
+%description -l pl
+HMAC jest u¿ywany do kontroli integralno¶ci wiadomo¶ci pomiêdzy dwiema
+stronami dziel±cymi tajny klucz, dzia³ w po³±czeniu z jakim¶ innym
+algorytmem skrótu, zazwyczaj MD5 lub SHA-1. Mechanizm HMAC jest
+opisany w RFC 2104.
 
 %prep
 %setup -q -n Digest-HMAC-%{version}
