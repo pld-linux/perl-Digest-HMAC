@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Digest::HMAC
 Summary(it):	Modulo di Perl Digest::HMAC
 Summary(ja):	Digest::HMAC Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Digest::HMAC ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Digest::HMAC
+Summary(nb):	Perlmodul Digest::HMAC
 Summary(pl):	Modu³ Perla Digest::HMAC
 Summary(pt):	Módulo de Perl Digest::HMAC
 Summary(pt_BR):	Módulo Perl Digest::HMAC
