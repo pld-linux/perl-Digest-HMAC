@@ -24,7 +24,7 @@ Release:	9
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	perl
+BuildRequires:	perl-devel
 BuildRequires:	perl-Digest-MD5 >= 2.00
 BuildRequires:	perl-Digest-SHA1 >= 1.00
 BuildRequires:	rpm-perlprov >= 4.1-13
