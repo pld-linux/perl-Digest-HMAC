@@ -1,9 +1,12 @@
+%define	pdir	Digest
+%define	pnam	HMAC
 %include 	/usr/lib/rpm/macros.perl
 Summary:	Perl Digest-HMAC module
 Summary(pl):	Modu³ Perla Digest-HMAC
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	3
+Release:	4
+
 License:	distributable
 Group:		Development/Languages/Perl
 Group(cs):	Vıvojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Digest/Digest-HMAC-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl
 Requires:	perl-Digest-MD5
