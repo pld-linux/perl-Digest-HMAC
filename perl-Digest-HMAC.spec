@@ -9,7 +9,7 @@ Summary:	Digest::HMAC - keyed-hashing for message authentication
 Summary(pl):	Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatów
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
