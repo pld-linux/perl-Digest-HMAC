@@ -3,7 +3,7 @@ Summary:	Perl Digest-HMAC module
 Summary(pl):	Modu³ Perla Digest-HMAC
 Name:		perl-Digest-HMAC
 Version:	1.01
-Release:	1
+Release:	2
 License:	distributable
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl
 Requires:	perl-Digest-MD5
 Requires:	perl-Digest-SHA1
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
