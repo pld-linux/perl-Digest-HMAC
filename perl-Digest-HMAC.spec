@@ -6,8 +6,14 @@ Version:	1.01
 Release:	3
 License:	distributable
 Group:		Development/Languages/Perl
+Group(cs):	Vıvojové prostøedky/Programovací jazyky/Perl
 Group(de):	Entwicklung/Sprachen/Perl
+Group(es):	Desarrollo/Lenguajes/Perl
+Group(fr):	Development/Langues/Perl
+Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
+Group(pt):	Desenvolvimento/Linguagens/Perl
+Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Digest/Digest-HMAC-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl
