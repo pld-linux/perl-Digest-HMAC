@@ -23,7 +23,7 @@ Version:	1.01
 Release:	8
 License:	distributable
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl
 BuildRequires:	perl-Digest-MD5 >= 2.00
 BuildRequires:	perl-Digest-SHA1 >= 1.00
