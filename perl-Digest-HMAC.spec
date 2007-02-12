@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	HMAC
 Summary:	Digest::HMAC - keyed-hashing for message authentication
-Summary(pl):	Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatÛw
+Summary(pl.UTF-8):   Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikat√≥w
 Name:		perl-Digest-HMAC
 Version:	1.01
 Release:	11
@@ -28,10 +28,10 @@ share a secret key, and works in combination with some other Digest
 algorithm, usually MD5 or SHA-1. The HMAC mechanism is described in
 RFC 2104.
 
-%description -l pl
-HMAC jest uøywany do kontroli integralno∂ci wiadomo∂ci pomiÍdzy dwiema
-stronami dziel±cymi tajny klucz, dzia≥ w po≥±czeniu z jakim∂ innym
-algorytmem skrÛtu, zazwyczaj MD5 lub SHA-1. Mechanizm HMAC jest
+%description -l pl.UTF-8
+HMAC jest u≈ºywany do kontroli integralno≈õci wiadomo≈õci pomiƒôdzy dwiema
+stronami dzielƒÖcymi tajny klucz, dzia≈Ç w po≈ÇƒÖczeniu z jakim≈õ innym
+algorytmem skr√≥tu, zazwyczaj MD5 lub SHA-1. Mechanizm HMAC jest
 opisany w RFC 2104.
 
 %prep
