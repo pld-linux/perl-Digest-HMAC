@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	HMAC
 Summary:	Digest::HMAC - keyed-hashing for message authentication
-Summary(pl.UTF-8):   Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatów
+Summary(pl.UTF-8):	Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatów
 Name:		perl-Digest-HMAC
 Version:	1.01
 Release:	11
