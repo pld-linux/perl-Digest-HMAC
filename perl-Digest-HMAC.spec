@@ -6,15 +6,16 @@
 %define		pdir	Digest
 %define		pnam	HMAC
 Summary:	Digest::HMAC - keyed-hashing for message authentication
-Summary(pl.UTF-8):	Digest::HMAC - mieszanie z kluczem dla autoryzacji komunikatów
+Summary(pl.UTF-8):	Digest::HMAC - haszowanie z kluczem dla uwierzytelnienia wiadomości
 Name:		perl-Digest-HMAC
 Version:	1.01
 Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	32dc54c765100c638b5d7f7ff4c5c626
+URL:		http://search.cpan.org/dist/Digest-HMAC/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Digest-MD5 >= 2.00
 BuildRequires:	perl-Digest-SHA1 >= 1.00
@@ -30,7 +31,7 @@ RFC 2104.
 
 %description -l pl.UTF-8
 HMAC jest używany do kontroli integralności wiadomości pomiędzy dwiema
-stronami dzielącymi tajny klucz, dział w połączeniu z jakimś innym
+stronami dzielącymi tajny klucz, działa w połączeniu z jakimś innym
 algorytmem skrótu, zazwyczaj MD5 lub SHA-1. Mechanizm HMAC jest
 opisany w RFC 2104.
 
