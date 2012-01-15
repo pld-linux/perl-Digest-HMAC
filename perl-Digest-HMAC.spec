@@ -8,13 +8,13 @@
 Summary:	Digest::HMAC - keyed-hashing for message authentication
 Summary(pl.UTF-8):	Digest::HMAC - haszowanie z kluczem dla uwierzytelnienia wiadomości
 Name:		perl-Digest-HMAC
-Version:	1.01
-Release:	14
+Version:	1.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	32dc54c765100c638b5d7f7ff4c5c626
+# Source0-md5:	e6a5d6f552da16eacb5157ea4369ff9d
 URL:		http://search.cpan.org/dist/Digest-HMAC/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Digest-MD5 >= 2.00
