@@ -57,5 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Changes
-%{perl_vendorlib}/Digest/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Digest/HMAC*.pm
+%{_mandir}/man3/Digest::HMAC*.3pm*
